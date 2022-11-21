@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Please open console for answers</h1>
+
+    <script>
+        //Question 1
+        for(i = 200; i >= 0; i-=3){
+            console.log(i);
+        }
+
+        //Question 2
+        let name = 'Kashaf Khan';
+        let j = 0;
+        while (j < 10) {
+            console.log(name);
+            j++;
+        }
+
+        //Question 3 
+        let num = 1;
+        let sumNum = 0;
+        while (num <= 10) {
+            if(num % 2 == 0){
+                sumNum = sumNum + 1;
+            }
+            num++;
+        }
+        console.log(sumNum);
+
+        //Question 4
+        let displayNum = 3;
+        do {
+            console.log(displayNum);
+            break;
+        } while (displayNum <= 5);
+
+        //Question 5
+        function showSumNum() {
+            let a = 3;
+            let b = 8;
+            
+            console.log(a+b);
+        }
+
+        showSumNum();
+
+        //Question 6 
+        function showArea(width, height) {
+            let widthVar = width;
+            let heightVar = height;
+
+            return widthVar + heightVar;
+        }
+
+        let area = showArea(56, 89);
+
+        console.log(area + 'px');
+    </script>
+</body>
+</html>
